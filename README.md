@@ -1,2 +1,5 @@
-# abhishek_kumbhar.github.io
-Abhishek Kumbhar Portfolio
+- 🙋🏻‍♂️ Hi, I’m Abhishek Kumbhar aka @avk1996
+- 🤸🏽‍♂️ Passionate Java Backend Developer with experience in Spring Boot, React, MySQL, MongoDB, Docker and Data Structures & Algorithms.
+- 🕵🏿‍♂️ Continuously enhancing my expertise in Full Stack Web Development, Machine Learning, and Data Structures & Algorithms using Java.
+- 🚴‍♂️ Reach me at: https://www.linkedin.com/in/abhishek-kumbhar-323129214/
+- 🌌 Portfolio: https://codolio.com/profile/avk19
