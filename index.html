@@ -7,165 +7,51 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!-- Navigation -->
+    <!-- ================= NAVIGATION ================= -->
+
     <nav>
       <h2>Abhishek Kumbhar</h2>
 
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#coding">Coding Profiles</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" id="homeLink">Home</a></li>
+
+        <li><a href="#" id="skillsLink">Skills</a></li>
+
+        <li><a href="#" id="codingLink">Coding Profiles</a></li>
+
+        <li><a href="#" id="projectsLink">Projects</a></li>
+
+        <li><a href="#" id="contactLink">Contact</a></li>
+
+        <li>
+          <a href="./resume/abhishek_kumbhar.pdf" target="_blank">Resume</a>
+        </li>
       </ul>
     </nav>
 
-    <!-- Hero -->
-    <header>
-      <img src="images/profile.jpg" alt="Profile Picture" />
+    <!-- ================= MAIN SECTION ================= -->
 
-      <h1>Abhishek Kumbhar</h1>
+    <main>
+      <!-- LEFT PANEL -->
 
-      <h3>Backend Developer</h3>
+      <section id="content"></section>
 
-      <p>
-        Passionate Java Backend Developer with experience in Spring Boot, React,
-        MySQL, MongoDB, Docker and Data Structures & Algorithms.
-      </p>
+      <!-- RIGHT PANEL -->
 
-      <button id="resumeButton">View Resume</button>
-    </header>
+      <aside id="headshot">
+        <img
+          id="profileImage"
+          src="images/abhishek.JPG"
+          alt="Profile Picture"
+          style="width: 40%; height: auto"
+        />
 
-    <!-- About -->
-    <section id="about">
-      <h2>About Me</h2>
+        <p>Java Backend Developer | 2 Years Experience</p>
+      </aside>
+    </main>
 
-      <p>
-        Write a short introduction about yourself here. Mention your experience,
-        interests and career goals.
-      </p>
-    </section>
-
-    <!-- Coding Profiles -->
-    <section id="coding">
-      <h2>Coding Profiles</h2>
-
-      <ul>
-        <li>
-          <a href="https://github.com/avk1996" target="_blank"> GitHub </a>
-        </li>
-
-        <li>
-          <a href="https://leetcode.com/kumbhara976" target="_blank">
-            LeetCode
-          </a>
-        </li>
-
-        <li>
-          <a href="https://www.hackerrank.com/kumbhara976" target="_blank">
-            HackerRank
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
-
-      <h3>Languages</h3>
-
-      <ul>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>C++</li>
-        <li>SQL</li>
-      </ul>
-
-      <h3>Frameworks</h3>
-
-      <ul>
-        <li>Spring Boot</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
-
-      <h3>Databases</h3>
-
-      <ul>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-      </ul>
-
-      <h3>Tools</h3>
-
-      <ul>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>Postman</li>
-        <li>VS Code</li>
-      </ul>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects">
-      <h2>Projects</h2>
-
-      <article>
-        <h3>Quiz Management System</h3>
-
-        <p>Description of your project.</p>
-
-        <a href="#">GitHub</a>
-
-        <a href="#">Live Demo</a>
-      </article>
-
-      <article>
-        <h3>Train Reservation System</h3>
-
-        <p>Description of your project.</p>
-
-        <a href="#">GitHub</a>
-      </article>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-      <h2>Contact</h2>
-
-      <p>
-        <strong>Email:</strong>
-
-        <a href="mailto:yourmail@gmail.com"> yourmail@gmail.com </a>
-      </p>
-
-      <p>
-        <strong>LinkedIn:</strong>
-
-        <a
-          href="https://linkedin.com/in/abhishek-kumbhar-323129214"
-          target="_blank"
-        >
-          LinkedIn Profile
-        </a>
-      </p>
-
-      <p>
-        <strong>GitHub:</strong>
-
-        <a href="https://github.com/avk1996" target="_blank">
-          GitHub Profile
-        </a>
-      </p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-      <p>© 2026 Abhishek Kumbhar. All Rights Reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

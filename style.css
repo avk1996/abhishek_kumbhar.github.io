@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(90deg, #0b0f19 0%, #111827 40%, #0d1117 100%);
+  color: white;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #f0f6fc;
+
+  background: linear-gradient(45deg, #0d1117 0%, #1f3b5f 50%, #0d1117 100%);
+  backdrop-filter: blur(12px);
+
+  border-bottom: 2px solid #6d757e;
+
+  padding: 15px 40px;
+  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  color: #8b949e;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f0f6fc;
+  transition: all 0.3s ease;
+}
+
+/* scrollable page */
+main {
+  display: grid;
+  margin: 40px;
+  border: 20px;
+  padding: 40px;
+  grid-template-columns: 60% 40%;
+}
+
+#content p {
+  text-align: justify;
+  line-height: 1.8;
+  width: 90%;
+}
+
+#headshot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertical center */
+  align-items: center;
+}
+
+#resumeButton {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px 30px;
+
+  background-color: #08284d;
+  color: white;
+
+  border: 2px solid #58a6ff;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  transition: 0.3s ease;
+}
+
+#resumeButton {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+}
+
+#resumeButton:hover {
+  background: transparent;
+
+  color: white;
+
+  border: 2px solid;
+
+  border-image: linear-gradient(90deg, #58a6ff, #7ee787) 1;
+
+  padding: 15px 15px;
+}
+
+/* transition of page animation */
+#content {
+  transition: opacity 0.5s ease;
+}
+
+.fade {
+  opacity: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
