@@ -109,3 +109,143 @@ a {
   text-decoration: none;
   color: white;
 }
+
+/* grettings */
+#greetings {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+}
+
+#dev {
+  cursor: pointer;
+}
+
+/* About me */
+#aboutMe,
+#skillList,
+#codingProfileList,
+#git,
+#leet,
+#hack,
+#gmail,
+#linkedin,
+#gitLink {
+  display: block;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  /* for all section borders */
+  background-image:
+    linear-gradient(#111827, #111827),
+    linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+#aboutMe:hover,
+#skillList:hover,
+#git:hover,
+#leet:hover,
+#hack:hover,
+#gmail:hover,
+#linkedin:hover,
+#gitLink:hover {
+  box-shadow:
+    0 0 5px rgba(0, 242, 254, 0.4),
+    0 0 10px rgba(79, 172, 254, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* skill list  */
+/* coding profile */
+#skillList {
+  line-height: 2;
+}
+
+#codingList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#git,
+#leet,
+#hack,
+#gmail,
+#linkedin,
+#gitLink {
+  font-size: larger;
+  padding: 50px;
+}
+
+#linkList {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+/* profile photo, dp */
+
+#profileFrame {
+  position: relative;
+
+  display: inline-block; /* IMPORTANT */
+  height: 300px;
+  width: auto;
+}
+#profileImage {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  display: block;
+}
+#profileFrame::before {
+  content: "";
+
+  position: absolute;
+
+  width: 70px;
+  height: 70px;
+
+  top: -12px;
+  left: -12px;
+
+  border-top: 5px solid #58a6ff;
+  border-left: 5px solid #00f2fe;
+
+  border-radius: 8px;
+
+  transition: 0.4s ease;
+}
+#profileFrame::after {
+  content: "";
+
+  position: absolute;
+
+  width: 70px;
+  height: 70px;
+
+  bottom: -12px;
+  right: -12px;
+
+  border-bottom: 5px solid #58a6ff;
+  border-right: 5px solid #00f2fe;
+
+  border-radius: 8px;
+
+  transition: 0.4s ease;
+}
+#profileFrame:hover::before {
+  top: -12px;
+  left: calc(100% - 58px);
+
+  transform: rotate(90deg);
+}
+
+#profileFrame:hover::after {
+  bottom: -12px;
+  right: calc(100% - 58px);
+
+  transform: rotate(90deg);
+}

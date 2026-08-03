@@ -1,10 +1,10 @@
 const homeHTML = `
-<h1>
+<h1 id="greetings">
           Hi, I'm Abhishek!<br />
-          Software Engineer
+          Software <span id="wordContainer"><span id="dev">Engineer</span>
         </h1>
 
-        <p>
+        <p id="aboutMe">
           Software Engineer with 2 years of experience in Java Backend
           Development using Spring Boot. Passionate about building scalable
           applications, solving Data Structures & Algorithms, and continuously
@@ -12,26 +12,33 @@ const homeHTML = `
         </p>
 
         <a href="resume/abhishek_kumbhar.pdf" target="_blank" id="resumeButton">
-          ⬇ View Resume
+          🧐 View Resume
         </a>    
 `;
 
 const skillsHTML = `
   <h1>Skills</h1>
 
-      <h3>Languages: Java, JavaScript, C++, SQL</h3>
-
-      <h3>Frameworks: Spring Boot, React, Node.JS</h3>
-
-      <h3>Databases: MySQL, MongoDB</h3>
-
-      <h3>Tools: Intellij, Eclips, Spring suite, Git, Docker, Postman, VS Code</h3>`;
+      <div id="skillList">
+      Languages: Java, JavaScript, C++, SQL<br/>
+      Frameworks: Spring Boot, React, Node.JS<br/>
+      Databases: MySQL, MongoDB<br/>
+      Tools: Intellij, Eclips, Spring suite, Git, Docker, Postman, VS Code<br/>
+      </div>`;
 
 const codingHTML = `
  <h1>Coding Profiles</h1>
-    <a href="https://github.com/avk1996" target="_blank"> GitHub </a><br/>
-    <a href="https://leetcode.com/kumbhara976" target="_blank">LeetCode</a><br/>
-    <a href="https://www.hackerrank.com/kumbhara976" target="_blank">HackerRank</a><br/>
+ <div id="codingList">
+ <div id="git">
+    <a href="https://github.com/avk1996" target="_blank"> GitHub </a>
+  </div>
+  <div id="leet">
+    <a href="https://leetcode.com/kumbhara976" target="_blank">LeetCode</a>
+  </div>
+  <div id="hack">
+    <a href="https://www.hackerrank.com/kumbhara976" target="_blank">HackerRank</a>
+  </div>
+  </div>
 `;
 
 const projectsHTML = `
@@ -58,31 +65,24 @@ const projectsHTML = `
 
 const contactsHTML = `
  <h1>Contact</h1>
-
-      <p>
-        <strong>Email:</strong>
-
-        <a href="kumbhara976@gmail.com"> kumbhara976@gmail.com </a>
-      </p>
-
-      <p>
-        <strong>LinkedIn:</strong>
-
+  <div id="linkList">
+      <div id="gmail">
+        <a href="kumbhara976@gmail.com">📧 Email </a>
+      </div>
+      <div id="linkedin">
         <a
           href="https://linkedin.com/in/abhishek-kumbhar-323129214"
           target="_blank"
         >
-          LinkedIn Profile
+        ℹ️ LinkedIn
         </a>
-      </p>
-
-      <p>
-        <strong>GitHub:</strong>
-
+      </div>
+      <div id="gitLink"> 
         <a href="https://github.com/avk1996" target="_blank">
-          GitHub Profile
+          🐙 GitHub
         </a>
-      </p>`;
+      </div>
+  </div>`;
 
 const home = document.getElementById("homeLink");
 const skill = document.getElementById("skillsLink");
