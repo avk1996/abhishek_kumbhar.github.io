@@ -1,11 +1,20 @@
 const homeHTML = `
-<h1 id="greetings">
+        <h1 id="greetings">
           Hi, I'm Abhishek!<br />
-          Software <span id="wordContainer"><span id="dev">Engineer</span>
+          Software  
+            <span id="wordContainer">
+              <span id="word1">Engineer</span>
+              <span id="word2">Developer</span>
+            </span>
         </h1>
 
         <p id="aboutMe">
-          Software Engineer with 2 years of experience in Java Backend
+          Software 
+          <span id="wordContainer1">
+              <span id="word3">Engineer</span>
+              <span id="word4">Developer</span>
+          </span>
+          with 2 years of experience in Java Backend
           Development using Spring Boot. Passionate about building scalable
           applications, solving Data Structures & Algorithms, and continuously
           improving my Full Stack Development and Machine Learning skills.
