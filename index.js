@@ -75,9 +75,9 @@ const projectsHTML = `
 const contactsHTML = `
  <h1>Contact</h1>
   <div id="linkList">
-      <div id="gmail">
-        <a href="kumbhara976@gmail.com">📧 Email </a>
-      </div>
+    <a id="gmail" href="mailto:kumbhara976@gmail.com?subject=Job Opportunity&body=Hi Abhishek,%0A%0AI came across your portfolio...">
+    📧 Email
+      </a>
       <div id="linkedin">
         <a
           href="https://linkedin.com/in/abhishek-kumbhar-323129214"
