@@ -162,6 +162,7 @@ h1 {
 #gmail,
 #linkedin,
 #gitLink {
+  margin-top: 20px;
   display: block;
   padding: 20px;
   border: 2px solid transparent;
@@ -337,6 +338,10 @@ h1 {
     flex-direction: column;
     margin-top: 20px;
     font-size: x-large;
+  }
+
+  #frameName {
+    font-size: small;
   }
 }
 
