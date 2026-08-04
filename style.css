@@ -309,15 +309,6 @@ h1 {
   .menuButton {
     display: block;
   }
-}
-
-@media (max-width: 400px) {
-  .sideBar {
-    width: 100%;
-  }
-}
-
-@media (max-width: 800px) {
   main {
     grid-template-columns: 1fr; /* One column */
     grid-template-rows: auto auto;
@@ -339,5 +330,18 @@ h1 {
   #profileImage {
     width: 220px; /* Adjust to your liking */
     height: auto;
+  }
+
+  #codingList,
+  #linkList {
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 400px) {
+  .sideBar {
+    width: 100%;
   }
 }
